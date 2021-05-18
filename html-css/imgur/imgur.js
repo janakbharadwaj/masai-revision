@@ -13,7 +13,7 @@ const getData = async()=>{
         for(i in data.results){
             html+=`
             <div class="search-images-div">
-                <img src=${data.results[i].urls.full} alt=img/>
+                <img src=${data.results[i].urls.regular} alt=img/>
                 <p>${data.results[i].alt_description}</p>
             </div>
             `

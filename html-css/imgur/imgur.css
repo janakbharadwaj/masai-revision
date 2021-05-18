@@ -7,7 +7,7 @@
 } */
 
 .navBar{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -43,13 +43,26 @@
 
 .search-images-div{
     border: 1px solid wheat;
-    width: 30%;
+    width: 28%;
+    margin: 1%;
+    background-color: rgb(71,74,81);
+    transition: all 0.5s linear;
+}
+
+.search-images-div p{
+    background-color: rgb(71,74,81);
+    color: white;
+    text-align: center;
+}
+
+.search-images-div:hover{
+    box-shadow: 1px 1px 10px rgb(173, 171, 171);
 }
 
 .searchResults{
     width: 85%;
     margin: 1px auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-wrap: wrap;
 }
