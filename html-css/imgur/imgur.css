@@ -1,0 +1,55 @@
+*{
+    background-color: rgb(46,48,53);
+}
+
+/* .imgur_parent{
+    
+} */
+
+.navBar{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar input{
+    width: 350px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(69,68,105);
+    font-size: 15px;
+}
+
+.navBar  button{
+    background-color: rgb(27,183,110);
+    color: white;
+    width: 150px;
+    padding: 8px;
+    outline: none;
+    border: 0px;
+}
+
+.navBar img{
+    width: 6%;
+    color: white;
+    background-color: white;
+}
+
+.search-images-div > img{
+    width: 100%;
+}
+
+.search-images-div{
+    border: 1px solid wheat;
+    width: 30%;
+}
+
+.searchResults{
+    width: 85%;
+    margin: 1px auto;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}

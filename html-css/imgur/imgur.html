@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imgur clone</title>
+    <link rel="stylesheet" href="imgur.css">
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+</head>
+<body>
+    <div class="imgur_parent">
+        <div class="navBar">
+            <img src="./imgur-logo.png" alt='imgur-logo'/>
+            <button>New Post</button>
+            <div>
+                <input type="text" id="searchBar" placeholder="Images, #tags, users" required/>
+                <button id='searchButton'>search</button>
+            </div>
+        </div>
+        <div id="searchResults" class="searchResults"></div>
+    </div>
+    <script src="imgur.js"></script>
+</body>
+</html>
